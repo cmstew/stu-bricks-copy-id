@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-	stuElementCopyElement();
+  stuElementCopyElement();
 });
 
 function stuElementCopyElement() {
