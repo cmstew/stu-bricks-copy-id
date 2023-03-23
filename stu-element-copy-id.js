@@ -41,7 +41,7 @@ function stuElementCopyElement() {
           const bricksCanvas = contentWindow.document;
           const dataId = bricksCanvas.querySelector(placeholder) ? bricksCanvas.querySelector(placeholder).getAttribute('data-id') : null;
           const actionsContainer = activeClass.querySelector('div.actions');
-          const elementClassName = document.querySelector('#bricks-panel-element-classes .element-classes .element-class.active > .name')?.innerText ?? null;
+          const elementClass = document.querySelector('#bricks-panel-element-classes .element-classes .element-class.active > .name')?.innerText ?? null;
 
           actionsContainer.prepend(spanId, spanClass);
 
